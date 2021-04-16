@@ -8,11 +8,6 @@ import zipfile
 from pprint import pprint
 
 id_regex = r"(:\d*)$"
-
-# Algorithm
-#   - Download links
-#   - Decompress links
-
 usage = "usage: down_things target_dir url [*urls]"
 
 def print_status(identifier, message):
