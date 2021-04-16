@@ -13,9 +13,7 @@ id_regex = r"(:\d*)$"
 #   - Download links
 #   - Decompress links
 
-usage = """
-    usage: down_things target_dir url [*urls]
-"""
+usage = "usage: down_things target_dir url [*urls]"
 
 def print_status(identifier, message):
     print(f"[{identifier}] - {message}")
